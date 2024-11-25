@@ -5,6 +5,10 @@ metadata:
   annotations:
     github.com/project-slug: 'MYSTAKE-ENG/WorkingNotebook'
     backstage.io/techdocs-ref: dir:.
+    links:
+    - url: https://dashboard.example.com
+      title: ADX dashboard with results
+      icon: dashboard
 spec:
   type: service
   owner: user:guest
