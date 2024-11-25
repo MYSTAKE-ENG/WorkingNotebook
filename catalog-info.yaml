@@ -2,13 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "WorkingNotebook"
-  annotations:
-    github.com/project-slug: 'MYSTAKE-ENG/WorkingNotebook'
-    backstage.io/techdocs-ref: dir:.
-    links:
+  links:
     - url: https://dashboard.example.com
       title: ADX dashboard with results
       icon: dashboard
+  annotations:
+    github.com/project-slug: 'MYSTAKE-ENG/WorkingNotebook'
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: user:guest
