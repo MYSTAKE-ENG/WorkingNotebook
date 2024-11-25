@@ -14,3 +14,5 @@ spec:
     - resource:default/ests
   partOf:
     - domain:default/AntiPhishing
+  dependencyOf:
+    - service:default/OctoFrog-BrowserIds
