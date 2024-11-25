@@ -9,3 +9,8 @@ spec:
   type: service
   owner: user:guest
   lifecycle: experimental
+  system: stomp
+  dependsOn:
+    - resource:default/ests
+  partOf:
+    - domain:default/AntiPhishing
