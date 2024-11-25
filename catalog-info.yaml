@@ -19,4 +19,4 @@ spec:
   partOf:
     - domain:default/AntiPhishing
   dependencyOf:
-    - service:default/OctoFrog-BrowserIds
+    - component:default/OctoFrog-BrowserIds
