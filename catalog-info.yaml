@@ -9,7 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: 'MYSTAKE-ENG/WorkingNotebook'
     backstage.io/techdocs-ref: dir:.
-    prometheus.io/rule: delta(fake_metrics_process_time2[10m]),fake_metrics_kql_results,delta(fake_metrics_fails[10m])
+    prometheus.io/rule: delta(fake_metrics_process_time2_count[10m]),fake_metrics_kql_results,delta(fake_metrics_fails_total[10m])
     prometheus.io/alert: all
 spec:
   type: service
